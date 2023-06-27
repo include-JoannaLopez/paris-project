@@ -14,8 +14,7 @@ body {
   grid-gap: 64px;
 }
 .grid-2-columns {
-  grid-template-columns: auto auto;
-  /*auto auto*/
+  grid-template-columns: 1fr 1fr;
 }
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
@@ -24,12 +23,19 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 .card {
   background: white;
   margin: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 .card-body {
   padding: 30px;
