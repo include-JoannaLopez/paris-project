@@ -58,6 +58,9 @@ body {
   background-color: #462cb3;
   text-decoration: none;
 }
+.instagram-embeds {
+  margin: 30px 0;
+}
 section {
   max-width: 100%;
   margin: 0 auto;
